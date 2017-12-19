@@ -1,6 +1,6 @@
 const graphContainer = document.getElementById('graphContainer')
 const graph = document.createElement('img')
-let curImg = './img/10-14.svg'
+let curImg = '10-14.svg'
 let img = curImg
 
 graph.className = 'graph-img animated fadeIn'
@@ -22,11 +22,11 @@ window.onscroll = function() {
     img = curImg
 
     if(scrollPos <= firstChangePos) {
-        curImg = './img/10-14.svg'
+        curImg = '10-14.svg'
     } else if(scrollPos > firstChangePos && scrollPos < secondChangePos) {
-        curImg = './img/15-17.svg'
+        curImg = '15-17.svg'
     } else if(scrollPos >= secondChangePos) {
-        curImg = './img/18-19.svg'
+        curImg = '18-19.svg'
     } 
 
     if(img != curImg) {
