@@ -1,0 +1,123 @@
+/* html {
+    min-width: 1200px;
+    overflow: hidden;
+    overflow-x: hidden;
+} */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'calibri', sans-serif;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: 'calibri-Bold';
+    margin: 50px 50px 20px;
+    font-size: 35px;
+}
+
+.subheader {
+    font-family: 'calibri';
+    margin: 0px 50px 50px;
+    color: grey;
+    font-size: 20px;
+}
+
+.first-section {
+    height: 100vh;
+    width: 100%;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    margin: 4rem 0;
+}
+
+.data-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 3rem;
+}
+
+.catagory {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.catagory h2 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+}
+
+.catagory-story {
+    width: 45%;
+    height: 100%;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 200;
+    margin: 50px;
+}
+
+.catagory-story2 {
+    width: 60%;
+    height: 100%;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 200;
+    margin: 50px;
+}
+
+.info-img {
+    width: 55%;
+    padding: 0 2rem;
+}
+
+.graph-img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: 55%;
+    height: 100vh;
+    padding: 0 4rem 0 2rem;
+}
+
+.graph-img {
+    width: 100%;
+}
+
+.graph-code {
+    width: 55%;
+    height: 100%;
+}
